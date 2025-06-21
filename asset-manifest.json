@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/Personal-Detail/static/css/main.dd40dde5.css",
-    "main.js": "/Personal-Detail/static/js/main.b2bb3d9a.js",
+    "main.js": "/Personal-Detail/static/js/main.251c19b7.js",
     "static/js/453.4cc7b53c.chunk.js": "/Personal-Detail/static/js/453.4cc7b53c.chunk.js",
+    "static/media/E-shoping.PNG": "/Personal-Detail/static/media/E-shoping.4831a1380e316964d000.PNG",
+    "static/media/Computer-course.jpg": "/Personal-Detail/static/media/Computer-course.6ed44af48515968f2ee9.jpg",
+    "static/media/English-course.jpg": "/Personal-Detail/static/media/English-course.9e0bd5141881ca95d4ee.jpg",
     "static/media/me.jpg": "/Personal-Detail/static/media/me.4c9f36b62a2d36946c9c.jpg",
     "static/media/flutter.png": "/Personal-Detail/static/media/flutter.c49312b325b54066b491.png",
     "static/media/c-sharp-logo.png": "/Personal-Detail/static/media/c-sharp-logo.98cc4f4573fd852035bf.png",
@@ -11,11 +14,11 @@
     "static/media/react.svg": "/Personal-Detail/static/media/react.903d77ad940b12efaddde2484397ad4a.svg",
     "index.html": "/Personal-Detail/index.html",
     "main.dd40dde5.css.map": "/Personal-Detail/static/css/main.dd40dde5.css.map",
-    "main.b2bb3d9a.js.map": "/Personal-Detail/static/js/main.b2bb3d9a.js.map",
+    "main.251c19b7.js.map": "/Personal-Detail/static/js/main.251c19b7.js.map",
     "453.4cc7b53c.chunk.js.map": "/Personal-Detail/static/js/453.4cc7b53c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd40dde5.css",
-    "static/js/main.b2bb3d9a.js"
+    "static/js/main.251c19b7.js"
   ]
 }
