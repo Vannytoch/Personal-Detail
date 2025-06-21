@@ -1,5 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
+import meImage from "./assets/me.jpg";
+import flutterImg from "./assets/flutter.png";
+import csharpImg from "./assets/c-sharp-logo.png";
+import sqlImg from "./assets/logo.svg";
+import reactImg from "./assets/react.svg";
+import htmlImg from "./assets/html.jpg";
+
 import {
   FaUser,
   FaTools,
@@ -9,6 +16,7 @@ import {
   FaFileAlt,
   FaClock,
 } from "react-icons/fa";
+
 import TypingEffect from "./typing_effic";
 
 const containerVariants = {
@@ -26,11 +34,11 @@ const itemVariants = {
 
 export default function AboutMeStudio() {
   const skills = [
-    { name: "Dart / Flutter", img: "/assets/flutter.png" },
-    { name: "C# / .NET / WinForms", img: "/assets/c-sharp-logo.png" },
-    { name: "SQL Server, Oracle", img: "/assets/logo.svg" },
-    { name: "React.js", img: "/assets/react.svg" },
-    { name: "HTML, CSS, JavaScript", img: "/assets/html.jpg" },
+    { name: "Dart / Flutter", img: flutterImg },
+    { name: "C# / .NET / WinForms", img: csharpImg },
+    { name: "SQL Server, Oracle", img: sqlImg },
+    { name: "React.js", img: reactImg },
+    { name: "HTML, CSS, JavaScript", img: htmlImg },
   ];
 
   const projects = [
@@ -38,19 +46,19 @@ export default function AboutMeStudio() {
       title: "Stock Management System",
       desc: "Built using C# and SQL Server to manage inventory.",
       time: "3 months",
-      img: "/assets/html.jpg",
+      img: htmlImg,
     },
     {
       title: "E-Shopping App",
       desc: "Flutter app with custom cart and checkout features.",
       time: "2 months",
-      img: "/assets/html.jpg",
+      img: htmlImg,
     },
     {
       title: "Drone Management System",
       desc: "Python tool for organizing drone logistics.",
       time: "1.5 months",
-      img: "/assets/html.jpg",
+      img: htmlImg,
     },
   ];
 
@@ -70,8 +78,8 @@ export default function AboutMeStudio() {
           viewport={{ once: false, amount: 0.2 }}
         >
           <img
-            src="./assets/me.jpg"
-            alt="Your Photo"
+            src={meImage}
+            alt="Vanny Toch"
             className="mx-auto w-40 h-40 rounded-full shadow-xl border-4 border-white mb-6 object-cover"
           />
           <h1 className="text-5xl font-extrabold tracking-tight drop-shadow-lg">
@@ -170,7 +178,7 @@ export default function AboutMeStudio() {
                     {proj.title}
                   </h3>
                   <span className="text-sm text-pink-200 italic">
-                    <FaClock/> {proj.time}
+                    <FaClock /> {proj.time}
                   </span>
                 </div>
                 <p className="text-pink-100">{proj.desc}</p>
@@ -192,11 +200,9 @@ export default function AboutMeStudio() {
           </h2>
           <ul className="max-w-xl mx-auto space-y-4 text-white/90">
             <li>
-              <strong>Bachelor of Computer Science</strong> — University XYZ (2015
-              - 2019)
+              <strong>Bachelor of Computer Science</strong> — University XYZ (2015 - 2019)
               <br />
-              Graduated with First Class Honors. Focused on software engineering
-              and database systems.
+              Graduated with First Class Honors. Focused on software engineering and database systems.
             </li>
             <li>
               <strong>Online Courses</strong> — Various Platforms
@@ -221,7 +227,7 @@ export default function AboutMeStudio() {
             <li>
               Certificate of Completion – Beltei International University (2023)
               <img
-                src="/assets/html.jpg"
+                src={htmlImg}
                 alt="Beltei Certificate"
                 className="w-full max-w-md rounded-lg shadow-lg mt-3"
               />
@@ -229,7 +235,7 @@ export default function AboutMeStudio() {
             <li>
               Certificate of Completion – Beltei International University (2023)
               <img
-                src="/assets/html.jpg"
+                src={htmlImg}
                 alt="Beltei Certificate"
                 className="w-full max-w-md rounded-lg shadow-lg mt-3"
               />
@@ -251,32 +257,19 @@ export default function AboutMeStudio() {
           <div className="space-y-2 text-white/90 text-lg max-w-md mx-auto">
             <p>
               <strong>Email:</strong>{" "}
-              <a
-                href="mailto:vanny@example.com"
-                className="text-pink-200 hover:text-white underline"
-              >
+              <a href="mailto:vanny@example.com" className="text-pink-200 hover:text-white underline">
                 vanny@example.com
               </a>
             </p>
             <p>
               <strong>GitHub:</strong>{" "}
-              <a
-                href="https://github.com/vannytoch"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white underline"
-              >
+              <a href="https://github.com/vannytoch" target="_blank" rel="noopener noreferrer" className="text-pink-200 hover:text-white underline">
                 github.com/vannytoch
               </a>
             </p>
             <p>
               <strong>LinkedIn:</strong>{" "}
-              <a
-                href="https://linkedin.com/in/vannytoch"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-pink-200 hover:text-white underline"
-              >
+              <a href="https://linkedin.com/in/vannytoch" target="_blank" rel="noopener noreferrer" className="text-pink-200 hover:text-white underline">
                 linkedin.com/in/vannytoch
               </a>
             </p>
