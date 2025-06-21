@@ -82,9 +82,9 @@ export default function AboutMeStudio() {
             alt="Vanny Toch"
             className="mx-auto w-40 h-40 rounded-full shadow-xl border-4 border-white mb-6 object-cover"
           />
-          <h2 className="text-5xl font-extrabold tracking-tight drop-shadow-lg">
+          <h1 className="text-4xl font-extrabold tracking-tight drop-shadow-lg">
             Toch Vanny
-          </h2>
+          </h1>
           <p className="mt-3 text-xl font-semibold text-pink-100 min-h-[1.5rem]">
             I'm{" "}
             <TypingEffect
