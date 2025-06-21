@@ -82,9 +82,9 @@ export default function AboutMeStudio() {
             alt="Vanny Toch"
             className="mx-auto w-40 h-40 rounded-full shadow-xl border-4 border-white mb-6 object-cover"
           />
-          <h1 className="text-5xl font-extrabold tracking-tight drop-shadow-lg">
+          <h2 className="text-5xl font-extrabold tracking-tight drop-shadow-lg">
             Toch Vanny
-          </h1>
+          </h2>
           <p className="mt-3 text-xl font-semibold text-pink-100 min-h-[1.5rem]">
             I'm{" "}
             <TypingEffect
@@ -134,7 +134,7 @@ export default function AboutMeStudio() {
             {skills.map((skill, idx) => (
               <li
                 key={idx}
-                className="flex items-center gap-3 bg-tea-400/80 backdrop-blur-sm rounded-full px-6 py-3 text-white font-semibold shadow-lg hover:bg-pink-600 transition-colors cursor-default"
+                className="flex items-center gap-3 bg-tea-400/80 backdrop-blur-sm rounded-full px-6 py-3 text-white font-semibold shadow-lg hover:bg-blue-500 transition-colors cursor-default"
               >
                 <img
                   src={skill.img}
@@ -257,8 +257,8 @@ export default function AboutMeStudio() {
           <div className="space-y-2 text-white/90 text-lg max-w-md mx-auto">
             <p>
               <strong>Email:</strong>{" "}
-              <a href="mailto:vanny@example.com" className="text-pink-200 hover:text-white underline">
-                vanny@example.com
+              <a href="mailto:vannytoch996@gmail.com" className="text-pink-200 hover:text-white underline">
+                vannytoch996@gmail.com
               </a>
             </p>
             <p>
@@ -267,10 +267,16 @@ export default function AboutMeStudio() {
                 github.com/vannytoch
               </a>
             </p>
-            <p>
+            {/* <p>
               <strong>LinkedIn:</strong>{" "}
               <a href="https://linkedin.com/in/vannytoch" target="_blank" rel="noopener noreferrer" className="text-pink-200 hover:text-white underline">
                 linkedin.com/in/vannytoch
+              </a>
+            </p> */}
+            <p>
+              <strong>Telegram:</strong>{" "}
+              <a href="https://t.me/Toch_Vanny" target="_blank" rel="noopener noreferrer" className="text-pink-200 hover:text-white underline">
+                t.me/Toch_Vanny
               </a>
             </p>
           </div>
